@@ -23,7 +23,7 @@ const numberOfBooksRead = () => {
 
 	
   for(int i=0;library.length;i++){
-	  if(library[i].readingStatus===true){
+	  if(library[i].readingStatus==true){
 		  readBooks++;
 	  }
   }
@@ -32,4 +32,4 @@ const numberOfBooksRead = () => {
 
 // Do not change the code below
 
-alert(numberOfBooksRead());
+alert(numberOfBooksRead(library));
